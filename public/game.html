@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Game Page</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <main id="chat">
+            <section class="system-chat-message">
+                <p class="system">Welcome to the game! Type your message below.</p>
+            </section>
+            <section class="system-chat-message">
+                <p class="system">All you know is you must get to the end of the dungeon to collect the diamond. There are doors you must get through to continue.</p>
+            </section>
+        </main>
+        <section class="user-info">
+            <p class="health">Health: <span id="healthValue">10/10</span></p>
+            <p class="inventory">Inventory: <span id="inventoryCount">Wooden Sword: 2 Damage</span></p>
+        </section>
+        <form>
+            <section class="form-element">
+                <input type="text" id="userMessage" placeholder="Type your message here..." required>
+                <button type="submit" id="sendMessage">Submit</button>
+            </section>
+        </form>
+    </body>
+</html>

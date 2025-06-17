@@ -1,0 +1,84 @@
+main {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    border-radius: 25px;
+    height: 85vh;
+    background-color: #f0f0f0;
+    overflow-y: scroll;
+}
+
+.system {
+    font-size: 1rem;
+    color: #000000;
+    margin-bottom: 20px;
+    background-color: #909090;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    padding: 20px 20px 20px 20px;
+    display: flex;
+}
+
+.system-chat-message {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.user {
+    font-size: 1rem;
+    color: #000000;
+    margin-bottom: 20px;
+    background-color: #d0d0d0;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    padding: 20px 20px 20px 20px;
+    display: flex;
+}
+
+.user-chat-message {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#healthValue {
+    color: red
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.form-element {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    border: none;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 10%;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
