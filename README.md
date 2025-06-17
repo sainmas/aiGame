@@ -9,6 +9,8 @@
 
 This repository holds the code written by Mason Sain for Green River College's course SDEV 450's final project in Spring 2025. This is a project about a little dungeon master and user game. 
 
+[Presentation](https://www.canva.com/design/DAGqlnCECwM/yMfR7pt4-UaE2p2K0vA1Ew/edit?utm_content=DAGqlnCECwM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
 ### Findings
 
 It can achive a basic task as this and did not get completely off track. It kept the same theme of it being undead throughout the entire thing and was able to keep my unique final boss at the end. 
